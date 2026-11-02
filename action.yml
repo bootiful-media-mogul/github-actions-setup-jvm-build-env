@@ -14,7 +14,7 @@ runs:
   steps:
     - uses: graalvm/setup-graalvm@v1
       with:
-        java-version: '25.0.5'
+        java-version: '25'
         distribution: 'graalvm'
         github-token: ${{ inputs.gh_token }}
         cache: maven
